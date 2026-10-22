@@ -69,7 +69,7 @@ const products = [
   {
     id: 5,
     name: "Teddy Bear Bestie",
-    category: "Toys",
+    category: "Soft Toys",
     price: 499,
     old: 699,
     tag: "POPULAR",
@@ -79,7 +79,7 @@ const products = [
   {
     id: 6,
     name: "Personalised Love Gift",
-    category: "Personalized",
+    category: "Gift Set",
     price: 799,
     old: 999,
     tag: "MADE FOR YOU",
@@ -89,7 +89,7 @@ const products = [
   {
     id: 7,
     name: "Pawfect Pet Gift Set",
-    category: "Pet Supplies",
+    category: "Gift Set",
     price: 599,
     old: 799,
     tag: "SALE",
@@ -99,7 +99,7 @@ const products = [
   {
     id: 8,
     name: "Tiny Joy Baby Set",
-    category: "Baby Products",
+    category: "Gift Set",
     price: 899,
     old: 1199,
     tag: "GIFT PICK",
@@ -347,12 +347,12 @@ function App() {
               </h2>
               <p>A little something for every kind of smile.</p>
             </div>
-            <a href="#products" className="editorial-pill-btn">
+            {/*<a href="#products" className="editorial-pill-btn">
               <span>VIEW ALL</span>
               <span className="pill-arrow-circle" aria-hidden="true">
                 <ArrowUpRight size={13} />
               </span>
-            </a>
+            </a>*/}
           </div>
           <div className="category-grid">
             {categories.map((cat) => (
