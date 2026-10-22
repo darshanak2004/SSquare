@@ -63,7 +63,7 @@ export const categories = [
     id: "cakes",
     name: "Books",
     subtitle: "Sweet surprises",
-    image: "/images/book.jpg",
+    image: "/images/books.jpg",
     emoji: "🍰",
   },
   {
